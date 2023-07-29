@@ -1,0 +1,91 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* responsiverness for header */
+@media screen and (max-width:1024px) {
+    header,.banner{
+        padding: 20px 100px !important;
+        font-size: 22px !important;
+
+    }
+    .banner{
+        height: 410px !important;
+        
+    }
+    .bannergap{
+        gap: 25px !important;
+    }
+  
+    .bannerleft{
+        font-size: 50px !important;
+
+    }
+    .bannerimg{
+        width: 450px !important;
+    }
+    .bannertext{
+        font-size: 18px !important;
+    }
+    
+}
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+    header{
+        padding: 20px 70px !important;
+        font-size: 18px !important;
+
+    }
+    .banner{
+        height: 362px !important;
+        padding: 20px 70px!important;
+        
+    }
+   
+  
+    .bannerleft{
+        font-size: 30px !important;
+
+    }
+    .bannerimg{
+        width: 400px !important;
+    }
+    .bannertext{
+        font-size: 17px !important;
+    }
+    
+}
+@media screen and (min-width: 280px) and (max-width: 480px) { 
+    header{
+        padding: 15px 30px !important;
+        font-size: 15px !important;
+
+    }
+    .banner{
+        padding: 15px 30px !important;
+        height: 445px !important;
+       
+    }
+    .dorespobanner{
+        grid-template-columns: auto !important;
+        gap: 30px;
+    }
+    .bannerimg{
+        width: 281px !important;
+    }
+    .bannerleft{
+        font-size: 22px !important;
+
+    }
+    .setline{
+        display: none !important;
+    }
+    .setbutton{
+        padding: 8px 20px !important;
+    }
+    
+}
+/* responsiverness for header */
